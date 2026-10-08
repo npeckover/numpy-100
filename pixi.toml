@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Nick Peckover <nick.peckover@gmail.com>"]
+channels = ["conda-forge"]
+name = "numpy-100"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.7,<3.15"
+numpy = ">=2.5.3,<3"
+mdutils = ">=1.8.1,<2"
+nbformat = ">=5.11.1,<6"
